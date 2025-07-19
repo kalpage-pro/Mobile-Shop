@@ -1,0 +1,21 @@
+2025-07-11 21:05:17.051 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  securityConfig (field private com.wiley.laptopstore.service.CustomUserDetailsService com.wiley.laptopstore.config.SecurityConfig.customUserDetailsService)
+↑     ↓
+|  customUserDetailsService (field private org.springframework.security.crypto.password.PasswordEncoder com.wiley.laptopstore.service.CustomUserDetailsService.passwordEncoder)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+

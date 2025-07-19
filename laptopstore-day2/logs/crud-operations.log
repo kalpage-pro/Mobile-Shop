@@ -1,0 +1,18 @@
+2025-07-18 19:29:52.397 [main] INFO  c.w.l.service.LaptopService - Initializing sample laptop data
+2025-07-18 19:29:52.870 [main] DEBUG c.w.l.service.LaptopService - No existing laptops found, creating sample data
+2025-07-18 19:29:53.015 [main] DEBUG c.w.l.service.LaptopService - Created sample laptop: Dell XPS 13
+2025-07-18 19:29:53.023 [main] DEBUG c.w.l.service.LaptopService - Created sample laptop: MacBook Pro 14"
+2025-07-18 19:29:53.030 [main] DEBUG c.w.l.service.LaptopService - Created sample laptop: HP Spectre x360
+2025-07-18 19:29:53.037 [main] DEBUG c.w.l.service.LaptopService - Created sample laptop: ASUS ROG Strix G15
+2025-07-18 19:29:53.048 [main] INFO  c.w.l.service.LaptopService - Successfully initialized 4 sample laptops
+2025-07-18 19:35:03.741 [main] INFO  c.w.l.service.LaptopService - Initializing sample laptop data
+2025-07-18 19:35:04.286 [main] DEBUG c.w.l.service.LaptopService - No existing laptops found, creating sample data
+2025-07-18 19:35:04.409 [main] DEBUG c.w.l.service.LaptopService - Created sample laptop: Dell XPS 13
+2025-07-18 19:35:04.414 [main] DEBUG c.w.l.service.LaptopService - Created sample laptop: MacBook Pro 14"
+2025-07-18 19:35:04.424 [main] DEBUG c.w.l.service.LaptopService - Created sample laptop: HP Spectre x360
+2025-07-18 19:35:04.441 [main] DEBUG c.w.l.service.LaptopService - Created sample laptop: ASUS ROG Strix G15
+2025-07-18 19:35:04.447 [main] INFO  c.w.l.service.LaptopService - Successfully initialized 4 sample laptops
+2025-07-18 19:36:02.918 [http-nio-8085-exec-1] DEBUG c.w.l.service.LaptopService - Retrieving all laptops from database
+2025-07-18 19:36:03.021 [http-nio-8085-exec-1] INFO  c.w.l.service.LaptopService - Successfully retrieved 4 laptops from database
+2025-07-18 19:36:09.865 [http-nio-8085-exec-6] DEBUG c.w.l.service.LaptopService - Retrieving all laptops from database
+2025-07-18 19:36:09.872 [http-nio-8085-exec-6] INFO  c.w.l.service.LaptopService - Successfully retrieved 4 laptops from database
